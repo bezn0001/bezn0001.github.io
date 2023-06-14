@@ -19,6 +19,10 @@ background-color: blueviolet;
   list-style-type: square;
 }
 
+ul li {
+  margin: 10px;
+}
+
 .hobbies
 li:nth-child(odd) {
   background-color: orange;
