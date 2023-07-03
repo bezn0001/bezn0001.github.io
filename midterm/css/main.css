@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: plum;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}
+
+.container {
+  position: relative;
+  /* bottom: 20%; */
+}
+
+main {
+  padding: 8px;
+}
+
+.wrapper {
+  background-color: rgb(252, 238, 252);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+#nav-bar li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+#nav-bar li:nth-child(3) {
+  border: none;
+}
+
+#lotus {
+  width: 220px;
+  float: left;
+}
+
+.stop-float {
+  clear: left;
+}
+
+footer {
+  text-align: right;
+  margin-right: 8px;
+  padding: 20px;
+}
+
+#lotus-flower {
+  width: 100%;
+}
+
+.facts {
+margin-top: 0px;
+padding-left: 20px;
+}
+
+#nav-bar li a {
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+font-size: 1.2rem;
+}
+
+#lotus {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+form {
+  border: 1px solid black;
+}
+
+.space {
+  padding: 15px;
+}
+
+.form input {
+  display: block;
+}
+
+#name {
+  width: 100%;
+  height: 1.7rem;
+}
+
+#email {
+  width: 100%;
+  height: 1.7rem;
+}
+
+textarea {
+  display:block;
+  width: 100%;
+  height: 5rem;
+  resize: none;
+}
+
+.form div {
+   margin-top: 20px;
+}
+
+button {
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+  background-color:  rgb(252, 238, 252);
+  border: 1.4px solid;
+} 
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
