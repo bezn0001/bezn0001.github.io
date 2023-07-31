@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <title>Final project</title>
+</head>
+
+<body>
+    <header>
+        <!-- Wrapper class limits the width of the content on the page -->
+        <section class="wrapper">
+            <img src="images/logo.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <form action=""><input type="text" placeholder="Search"></form>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <!-- Use hero class to style hero section -->
+        <section class="hero">
+            <img src="images/main-banner.jpg" alt="Three Star Media banner image">
+            <!-- Wrapper class is used for limiting the max witdth -->
+            <section class="wrapper">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed repellendus aliquam amet quaerat
+                    nesciunt explicabo, sint asperiores cumque ad non doloribus ipsum est ipsam facere incidunt ipsa
+                    eveniet nostrum. Voluptate!</p>
+                <!-- Reusable class cta-button for styling -->
+                <button class="cta-button">
+                    <!-- Using span that it will be possible to target the text and the button and add an icon using after pseudo-element -->
+                    <span>Connect with us</span>
+                </button>
+            </section>
+        </section>
+
+        <!-- Using reusable grid class to control the layout of child elements of the section -->
+        <section id="about-us" class="about-us wrapper grid">
+            <img src="images/about-us.jpg" alt="About us">
+            <!-- Keeps h2 and p together when you use grid layout -->
+            <div class="content">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, officiis! Voluptatibus, non quos
+                    repellat unde ea repudiandae corrupti obcaecati cum facilis harum magni ab aliquid dignissimos nemo
+                    officia voluptas doloribus!
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                    aspernatur
+                    odio amet aliquid ipsum non quos debitis quasi dolore molestias odit, facilis temporibus excepturi
+                    dicta
+                    est. Unde placeat quibusdam aliquam?
+                </p>
+            </div>
+        </section>
+        <!-- Wrapper class limits the width of the content on the page -->
+        <section class="wrapper">
+            <h2>Services</h2>
+            <!-- Using reusable grid class to control the layout of child elements of the section -->
+            <section id="services" class="grid">
+                <!-- Repeatable class for styling the services cards -->
+                <article class="service">
+                    <header><img src="images/digital.jpg" alt="Three Star Media Digital Services"></header>
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae qui dolor et tempore! Quasi
+                        nostrum id voluptatem optio suscipit, recusandae perferendis totam numquam eligendi doloremque
+                        reprehenderit officiis at rem similique?</p>
+                    <button class="cta-button cta-button--black"><span>Digital Plans</span></button>
+                </article>
+                <!-- Repeatable class for styling the services cards -->
+                <article class="service">
+                    <header><img src="images/marketing.jpg" alt="Three Star Media Marketing Services"></header>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae qui dolor et tempore! Quasi
+                        nostrum id voluptatem optio suscipit, recusandae perferendis totam numquam eligendi doloremque
+                        reprehenderit officiis at rem similique?</p>
+                    <button class="cta-button cta-button--black">
+                        <span>Marketing Plans</span></button>
+                </article>
+                <!-- Repeatable class for styling the services cards -->
+                <article class="service">
+                    <header><img src="images/video.jpg" alt="Three Star Media Video production Services"></header>
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae qui dolor et tempore! Quasi
+                        nostrum id voluptatem optio suscipit, recusandae perferendis totam numquam eligendi doloremque
+                        reprehenderit officiis at rem similique?</p>
+                    <button class="cta-button cta-button--black">
+                        <span>
+                            Video Plans
+                        </span>
+                    </button>
+                </article>
+                <!-- Repeatable class for styling the services cards -->
+                <article class="service">
+                    <header><img src="images/web.jpg" alt="Three Star Media Web Development Services"></header>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae qui dolor et tempore! Quasi
+                        nostrum id voluptatem optio suscipit, recusandae perferendis totam numquam eligendi doloremque
+                        reprehenderit officiis at rem similique?</p>
+                    <button class="cta-button cta-button--black">
+                        <span>
+                            Web Plans
+                        </span>
+                    </button>
+                </article>
+                <!-- Repeatable class for styling the services cards -->
+                <article class="service">
+                    <header><img src="images/print.jpg" alt="Three Star Media Print  Services"></header>
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae qui dolor et tempore! Quasi
+                        nostrum id voluptatem optio suscipit, recusandae perferendis totam numquam eligendi doloremque
+                        reprehenderit officiis at rem similique?</p>
+                    <!-- Using a modifier class to change the background color of button -->
+                    <button class="cta-button cta-button--black">
+                        <span>
+                            Print Plans
+                        </span>
+                    </button>
+                </article>
+            </section>
+
+            <section>
+                <img src="images/vision.jpg" alt="Vision Banner">
+                <!-- Wrapper class limits the width of the content on the page -->
+                <div class="wrapper">
+                    <h3>Our Vision</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quia voluptate vitae dolore
+                        accusamus dolor pariatur nemo saepe! Assumenda quod quis commodi iusto repudiandae possimus amet
+                        vitae sequi consectetur ea!</p>
+                    <!-- Using a modifier class to change the background color of button -->
+                    <button class="cta-button cta-button--black">
+                        <span>
+                            Learn More
+                        </span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Wrapper class limits the width of the content on the page -->
+            <!-- Using id to target the section of the page for navigation -->
+            <section id="team" class="wrapper">
+                <h2>Our Team</h2>
+                <!-- Using reusable grid class to control the layout of child elements of the section -->
+                <article class="grid team-member">
+                    <header>
+                        <img src="images/john.jpg" alt="John Doe">
+                    </header>
+                    <!-- Using class content to group elements so the grid will see it as one element -->
+                    <div class="content">
+                        <h3>John Doe</h3>
+                        <h4>CEO and Co-owner</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, officiis! Voluptatibus,
+                            non quos
+                            repellat unde ea repudiandae corrupti obcaecati cum facilis harum magni ab aliquid
+                            dignissimos nemo
+                            officia voluptas doloribus!
+                        </p>
+                    </div>
+                </article>
+                <!-- Using reusable grid class to control the layout of child elements of the section -->
+                <article class="grid team-member">
+                    <header>
+                        <!-- Using class content to group elements so the grid will see it as one element -->
+                        <div class="content">
+                            <h3>Bob Rite</h3>
+                            <h4>CFO and Co-owner</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, officiis!
+                                Voluptatibus,
+                                non quos
+                                repellat unde ea repudiandae corrupti obcaecati cum facilis harum magni ab aliquid
+                                dignissimos nemo
+                                officia voluptas doloribus!
+                            </p>
+                        </div>
+                    </header>
+                    <img src="images/bob.jpg" alt="Bob Rite">
+                </article>
+            </section>
+
+            <!-- Using id to target the section of the page for navigation -->
+            <section id="contact" class="contact-us">
+                <h2>Contact Us</h2>
+                <!-- Wrapper class limits the width of the content on the page -->
+                <!-- Using reusable grid class to control the layout of child elements of the section -->
+                <section class="wrapper grid">
+                    <form action="">
+                        <h3>Send us a message</h3>
+                        <!-- Using class to group the labels with inputs to make layout easier -->
+                        <div class="form-element">
+                            <label for="name">Full Name</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <!-- Using class to group the labels with inputs to make layout easier -->
+                        <div class="form-element">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <!-- Using class to group the labels with inputs to make layout easier -->
+                        <div class="form-element">
+                            <label for="message">Messagge</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <button type="submit">
+                            Send
+                        </button>
+                    </form>
+                    <div class="location">
+                        <h3>Location</h3>
+                        <!-- Using iframe to put location of Algonquin College -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44868.47319750973!2d-75.76674222879274!3d45.34316841175013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2z0JDQu9Cz0L7QvdC60LjQvSDQmtC-0LvQu9C10LTQtiDQntGC0YLQsNCy0LAg0JrQsNC80L_Rg9GB!5e0!3m2!1sru!2sca!4v1690561175270!5m2!1sru!2sca"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+
+                <!-- Wrapper class limits the width of the content on the page -->
+                <section class="wrapper">
+                    <h3>Hours of operation</h3>
+                    <!-- Using table to show the operation hours of the company -->
+                    <table class="operation-hours">
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+
+                        <tr>
+                            <td>Saturday - Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+
+                </section>
+            </section>
+
+
+        </section>
+
+
+
+    </main>
+    <footer>
+        <p>&copy; Copyright Three Star Media, 2020</p>
+        <p>All images are taken from <a href="#">Unsplash</a></p>
+    </footer>
+</body>
+
+</html>
